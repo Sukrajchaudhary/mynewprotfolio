@@ -274,3 +274,74 @@ main {
   letter-spacing: 1px;
   color: #ffffff;
 }
+/* project sections */
+.project-heading{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.project-text{
+  color: #FFFF;
+  font-size: 1.5rem;
+}
+.project-sections{
+  background-color: #39597e;
+}
+.project-tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.project-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  width: 600px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: #1D2B53;
+  border-radius: 30px;
+}
+.project-class p{
+  color: whitesmoke;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+/* project descriptions */
+.my-project{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.project1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  gap: 20px;
+  border: 1px solid red;
+  flex-direction: column;
+}
+.project-technology{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+ gap: 14px;
+ place-items: center;
+ width: 500px;
+ height: auto;
+
+}
+.project-technology p{
+border: 1px solid black;
+padding: 3px;
+color: wheat;
+border-radius: 5px;
+}
